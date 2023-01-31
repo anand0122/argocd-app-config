@@ -33,12 +33,12 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/anand0122/fast-api-python.git
+    repoURL: https://github.com/anand0122/argocd-app-config.git
     targetRevision: HEAD
     path: fastApi
   destination: 
     server: https://kubernetes.default.svc
-    namespace: myapp
+    namespace: test
 
   syncPolicy:
     syncOptions:
